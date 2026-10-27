@@ -71,10 +71,6 @@ The scripts reference GLAD Collection 2 annual water dynamics, NASA HLS Version 
 
 Regional antecedent exposures are calculated before each regional week starts. Matched antecedent exposures are calculated before the `index_start` date in the climate manifest. The scripts and included tables define the analysis windows used in this package.
 
-## Scope of this package
-
-This package contains derived inputs and selected primary analyses. It does not include all supplementary-figure or sensitivity-analysis workflows. Figure 2 uses precomputed terrain-model estimates; the terrain logistic-regression fitting script is not included. Reproducing every manuscript result from raw satellite observations therefore requires additional inputs and scripts.
-
 ## Citation and contact
 
 Until a published citation is available, identify the accompanying manuscript as:
@@ -86,11 +82,3 @@ When referring to the repository, include its URL and the commit or release used
 ## License and provenance
 
 No data or code reuse license was specified in the supplied package. This repository does not assign a license on the authors' behalf. Third-party source data remain subject to their providers' terms.
-
-Original archive SHA-256:
-
-```text
-a02864ebebfcd1728aa5edad9f500a9fd64fe710d1a582b2827f3f2e8d93921c
-```
-
-The scientific source files, data, and supplied figures are unchanged from the original ZIP. The root README and the `docs/` inventory files were added or updated for repository documentation.
