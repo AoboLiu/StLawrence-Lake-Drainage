@@ -1,0 +1,28 @@
+file,rows,columns
+data/climate_manifest.csv,801,analysis_group; stratum_id; row_id; role; Lake_ID_num; Lake_ID; event_year; index_year; index_start; index_end; bracket_days; timing_source; magnitude_class; n_historical_controls; primary_precision_le7; sensitivity_precision_le14; extended_precision_le30; primary_case_crossover; latitude; longitude
+data/glad_candidates.csv,3942,Candidate_ID; Lake_ID_num; direction; pre_median_ha; post_median_ha; delta_ha; delta_pct; post_year_count; run_start; run_end; candidate_year; n_flagged_years; Lake_ID; reference_area_ha; core_area_ha; ownership_area_ha; abs_delta_pct; magnitude_class; provisional_recent; timing_start_year; timing_end_year; extract_start_year; extract_end_year
+data/hls_events.csv,3942,Candidate_ID; Lake_ID; Lake_ID_num; direction; magnitude_class; run_start; run_end; candidate_year; hls_class; persistence_status; pre_years; post_years; pre_awei; post_awei; baseline_noise; effect_score; timing_type; timing_quality; LastPre; FirstPost; HLS_window_days; post_support_n; post_support_fraction; timing_season_flag; primary_trigger_timing
+data/lakes_terrain.csv,3160,Lake_ID; Lake_ID_num; longitude; latitude; reference_area_ha; reference_compactness; dem_scale_m; ring30_150_elev_median_m; spatial_block_15km; near30_60_elev_median_m; r300_frac_below_level_minus0p5m; r600_frac_below_level_minus0p5m; r600_frac_below_level_minus1m; distance_to_coast_m; persistent_group
+data/matched_climate.csv,801,row_id; stratum_id; Lake_ID; Lake_ID_num; role; event_year; index_year; index_start; index_end; bracket_days; n_historical_controls; pre30_t2m_mean_c; pre7_prcp_sum_mm; pre14_snowmelt_sum_mm; pre7_snowmelt_sum_mm; pre7_runoff_sum_mm
+data/regional_weekly.csv,180,year; week_of_season; week_start; week_end; events; at_risk; pre7_runoff_sum_mm; pre7_snowmelt_sum_mm; pre7_prcp_sum_mm; pre7_t2m_mean_c; pre14_runoff_sum_mm; pre14_snowmelt_sum_mm; pre14_prcp_sum_mm; pre14_t2m_mean_c; pre30_runoff_sum_mm; pre30_snowmelt_sum_mm; pre30_prcp_sum_mm; pre30_t2m_mean_c
+data/s1_manifest.csv,879,Event_ID; Candidate_ID; Lake_ID_num; Lake_ID; event_year; direction; magnitude_class; state_transition_class; timing_type; HLS_confidence; LastPre; FirstPost; HLS_window_days; timing_quality; recovery_class
+data/s1_observations.csv,2787,Event_ID; Lake_ID; Lake_ID_num; direction; magnitude_class; track; s1_date; sar_progress; strong_track; vv_db_median; vh_db_median
+data/s1_timing.csv,879,Event_ID; Lake_ID_num; Lake_ID; event_year; direction; magnitude_class; state_transition_class; timing_type; HLS_confidence; recovery_class; HLS_LastPre; HLS_FirstPost; HLS_window_days; n_S1_rows; n_total_tracks; n_eligible_tracks; fraction_strong_tracks; median_track_shift_db; n_S1_inside_HLS_bracket; coherent_S1_change; S1_support_status; S1_later_pre_candidate; S1_earlier_post_candidate; raw_S1_refinement_candidate; spring_pre_anchor_risk; primary_S1_refinement_accepted; candidate_gain_days; candidate_LastPre; candidate_FirstPost; candidate_window_days; final_LastPre; final_FirstPost; final_window_days; window_reduction_fraction; timing_source; support_track_scope
+data/s1_tracks.csv,2612,Event_ID; Lake_ID; Lake_ID_num; event_year; direction; magnitude_class; track; orbit_pass; relative_orbit; n_rows; n_pre_context; n_post_context; eligible_track; delta_vv_db; delta_vh_db; sar_vector_magnitude_db; strong_track; pre_vv_db; pre_vh_db; post_vv_db; post_vh_db
+figures/Figure1/data/Fig1A_category_summary.csv,5,category; n
+figures/Figure1/data/Fig1A_lake_categories.csv,3160,Lake_ID; Lake_ID_num; longitude; latitude; persistent_group; temporary_drawdown; major_drainage; moderate_drainage; other_lake
+figures/Figure1/data/Fig1B_satellite_acquisition_dates.csv,27,year; L5_dates_thaw; L7_dates_thaw; L8_dates_thaw; L9_dates_thaw; S2_dates_thaw; S1_dates_thaw
+figures/Figure1/data/Fig1C_timing_precision_paired758.csv,8,threshold_days; method; n; denominator; pct
+figures/Figure1/data/Fig1D_events_by_year_533.csv,18,year; event_class; n
+figures/Figure1/data/Fig1E_events_by_week_533.csv,24,week_from_may1; event_class; n
+figures/Figure2/data/Fig2A_adjusted_OR.csv,8,case_group; metric; n; n_cases; OR_per_1SD; CI_low; CI_high; p_cluster_robust
+figures/Figure2/data/Fig2B_group_values.csv,2135,Lake_ID_num; persistent_group; r300_frac_below_level_minus0p5m
+figures/Figure2/data/Fig2C_quartile_observed_fraction.csv,8,quartile; type; n; events; pct; ci_low; ci_high; metric_min; metric_max
+figures/Figure2/data/Fig2D_Q1_Q4_cumulative_first_major.csv,18,quartile; year; n; cumulative_events; pct; ci_low; ci_high; metric_min; metric_max
+figures/Figure3/data/Figure3A_eventweek_standardized_sameweek_anomalies.csv,456,year; week_of_season; events; value_z; display_name; short; window; source_col
+figures/Figure3/data/Figure3B_IRR_profiles.csv,12,display_name; window; days; IRR; CI_low; CI_high; p
+figures/Figure3/data/Figure3C_added_deviance.csv,12,display_name; window; days; added_deviance_pct
+figures/Figure3/data/Figure3D_lag_bin_models.csv,12,display_name; period_label; days_label; model; IRR; CI_low; CI_high; p
+figures/Figure3/data/Figure3_metric_sds.csv,12,display_name; window; sd; median_eventweek_z
+figures/Figure4/data/Figure4A_eventweek_medians_for_consistent_plotting.csv,170,event_week; label; short; unit; delta
+figures/Figure4/data/Figure4A_summary.csv,5,label; short; unit; median_delta; CI_low; CI_high; n_event_weeks
