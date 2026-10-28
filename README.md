@@ -4,14 +4,14 @@ Data and code accompanying the manuscript:
 
 **Day-to-Week Timing Reveals Cooler Spring Conditions and Concentrated Runoff Before Thermokarst Lake Drainage**
 
-**Authors:** Aobo Liu<sup>1,2</sup>, Yating Chen<sup>1,2,*</sup>, Chengxin Wang<sup>1,3</sup>, and Xiao Cheng<sup>2,4</sup>
+**Authors:** Yating Chen<sup>1,2</sup>, Aobo Liu<sup>1,2,*</sup>, Chengxin Wang<sup>1,3</sup>, and Xiao Cheng<sup>2,4</sup>
 
 1. College of Geography and Environment, Shandong Normal University; Jinan 250014, China.
 2. Key Laboratory of Comprehensive Observation of Polar Environment (Sun Yat-sen University), Ministry of Education, Zhuhai 519082, China.
 3. Key Research Institute of Yellow River Civilization and Sustainable Development & Yellow River Civilization by Provincial and Ministerial Co-construction of Collaborative Innovation Center, Henan University, Kaifeng 475001, China.
 4. School of Geospatial Engineering and Science, Sun Yat-sen University, and Southern Marine Science and Engineering Guangdong Laboratory (Zhuhai), Zhuhai 519082, China.
 
-\* **Corresponding author:** Yating Chen ([chenyt2016bnu@gmail.com](mailto:chenyt2016bnu@gmail.com)).
+\* **Corresponding author:** Aobo Liu ([lab2016bnu@foxmail.com](mailto:lab2016bnu@foxmail.com)).
 
 **Manuscript status:** In preparation for submission. A publication DOI has not been assigned in this repository.
 
