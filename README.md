@@ -70,15 +70,3 @@ Run the JavaScript files in a configured Google Earth Engine environment. Replac
 The scripts reference GLAD Collection 2 annual water dynamics, NASA HLS Version 2, Sentinel-1 GRD, ArcticDEM V4, ERA5-Land daily aggregates, and Daymet Version 4. The collection identifiers and processing settings are recorded in the scripts. ArcticDEM is a 2 m input mosaic; the terrain script uses a 10 m calculation scale.
 
 Regional antecedent exposures are calculated before each regional week starts. Matched antecedent exposures are calculated before the `index_start` date in the climate manifest. The scripts and included tables define the analysis windows used in this package.
-
-## Citation and contact
-
-Until a published citation is available, identify the accompanying manuscript as:
-
-> Liu, A., Chen, Y., Wang, C., and Cheng, X. *Day-to-Week Timing Reveals Cooler Spring Conditions and Concentrated Runoff Before Thermokarst Lake Drainage*. Manuscript in preparation for submission.
-
-When referring to the repository, include its URL and the commit or release used. For scientific questions, contact Yating Chen at [chenyt2016bnu@gmail.com](mailto:chenyt2016bnu@gmail.com).
-
-## License and provenance
-
-No data or code reuse license was specified in the supplied package. This repository does not assign a license on the authors' behalf. Third-party source data remain subject to their providers' terms.
