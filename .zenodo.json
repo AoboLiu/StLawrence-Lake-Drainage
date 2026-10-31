@@ -1,0 +1,35 @@
+{
+  "title": "Data and code for Day-to-Week Timing Reveals Cooler Spring Conditions and Concentrated Runoff Before Thermokarst Lake Drainage",
+  "upload_type": "software",
+  "description": "<p>Derived datasets and selected analysis, processing, Google Earth Engine, and visualization scripts accompanying the manuscript on thermokarst lake drainage on St. Lawrence Island, Alaska. The archive includes lake and terrain attributes, candidate events and timing information, regional and matched hydroclimatic analysis inputs, and data and panels for the main figures.</p><p>The repository README documents the included materials, software dependencies, and limits on reproducing the full upstream workflows. Third-party source datasets remain subject to their providers' terms; this record's license applies to the authors' original contributions.</p>",
+  "creators": [
+    {
+      "name": "Chen, Yating",
+      "affiliation": "College of Geography and Environment, Shandong Normal University; Key Laboratory of Comprehensive Observation of Polar Environment (Sun Yat-sen University), Ministry of Education"
+    },
+    {
+      "name": "Liu, Aobo",
+      "affiliation": "College of Geography and Environment, Shandong Normal University; Key Laboratory of Comprehensive Observation of Polar Environment (Sun Yat-sen University), Ministry of Education"
+    },
+    {
+      "name": "Wang, Chengxin",
+      "affiliation": "College of Geography and Environment, Shandong Normal University; Key Research Institute of Yellow River Civilization and Sustainable Development & Yellow River Civilization by Provincial and Ministerial Co-construction of Collaborative Innovation Center, Henan University"
+    },
+    {
+      "name": "Cheng, Xiao",
+      "affiliation": "Key Laboratory of Comprehensive Observation of Polar Environment (Sun Yat-sen University), Ministry of Education; School of Geospatial Engineering and Science, Sun Yat-sen University; Southern Marine Science and Engineering Guangdong Laboratory (Zhuhai)"
+    }
+  ],
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "version": "1.0.0",
+  "language": "eng",
+  "keywords": [
+    "thermokarst lakes",
+    "lake drainage",
+    "permafrost",
+    "St. Lawrence Island",
+    "satellite remote sensing",
+    "hydroclimate"
+  ]
+}
